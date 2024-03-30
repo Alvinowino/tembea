@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;box-shadow: 2px 2px 2px 1px;
+}
+ul{
+    list-style: none;
+    text-align: right;gap: 25px;text-decoration: none;display: flex;
+}
+a{
+    text-decoration: none;color: black;
+}
+nav>ul>li{
+    display: inline;
+}
+nav>ul>li>a:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1),inset 0 0 1px rgba(255,255,255,0.6);background: rgba(221,109,35,0678);color: rgba(0,35,122,0.7);
+}
+.home-p{
+    background-image: url(https://cdn.pixabay.com/photo/2017/11/06/15/30/elephants-2923917_960_720.jpg);height: 200vh;background-repeat: no-repeat;
+}
+p{
+    text-align: center;justify-content: center;padding-bottom: 25px;color:
+    ;
+}
