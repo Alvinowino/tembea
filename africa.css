@@ -17,9 +17,94 @@ nav>ul>li>a:hover{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0,1),inset 0 0 1px rgba(255,255,255,0.6);background: rgba(221,109,35,0678);color: rgba(0,35,122,0.7);
 }
 .home-p{
-    background-image: url(https://cdn.pixabay.com/photo/2017/11/06/15/30/elephants-2923917_960_720.jpg);height: 200vh;background-repeat: no-repeat;
+    background-image: url(https://media.istockphoto.com/id/1140829742/photo/sunset-at-savannah-plains.jpg?s=612x612&w=0&k=20&c=VSCGVSpcm3d5JKDhDSBgSGHW8XzRA3ywfsAbSO4w3F4=);height: 90vh;background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;background-position: center;background-size: cover;padding-bottom: 10%;margin: 1%;
 }
 p{
-    text-align: center;justify-content: center;padding-bottom: 25px;color:
+    text-align: center;justify-content: center;color:
     ;
 }
+#about{
+    display: flex;flex-direction: row;
+}
+main>section{
+    display: flex;gap: 25px;
+}
+h3{text-decoration: underline;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.sevices{
+   padding: 20px;
+   margin: 5%;
+}
+
+.sevices h3{
+    text-align: center;
+    font-size: 30px;
+}
+#activities{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#activities tr{
+    background-color: #f2f2f2;
+}
+
+#activities tr:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+#activities td{
+    border: 1px;
+    padding: 8px;
+    color: black;
+}
+
+#activities th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+}
+
+.contacts h3{
+    text-align: center;
+    font-size: 30px;
+}
+#contacts{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#contacts tr{
+    background-color: #f2f2f2;
+}
+
+#contacts tr:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;color:
+}
+
+#contacts td{
+    border: 1px;
+    padding: 8px;
+    color: black;
+}
+
+#contacts th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: black;
+} 
+.ali{ color:blue;font-weight:bolder;font-style: italic;font-family: Arial, Helvetica, sans-serif;font-size: 30px;}
+#contacts tr{
+    background-color: aquamarine;
+}
+
